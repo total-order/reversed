@@ -1,19 +1,8 @@
 # Usage
 
-> :warning: Depending on your environment, the code may require
-> `regeneratorRuntime` to be defined, for instance by importing
-> [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
-
-First, require the polyfill at the entry point of your application
+Import the library where needed
 ```js
-require( 'regenerator-runtime/runtime' ) ;
+const {reversed} = require( '@total-order/reversed' ) ;
 // or
-import 'regenerator-runtime/runtime.js' ;
-```
-
-Then, import the library where needed
-```js
-const reversed = require( '@total-order/reversed' ) ;
-// or
-import * as reversed from '@total-order/reversed' ;
+import {reversed} from '@total-order/reversed' ;
 ```

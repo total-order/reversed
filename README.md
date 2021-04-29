@@ -4,12 +4,12 @@
 Comparison function reversion for JavaScript.
 See [docs](https://total-order.github.io/reversed/index.html).
 
-> :building_construction: Caveat emptor! This is work in progress. Code may be
-> working. Documentation may be present. Coherence may be. Maybe.
+```js
+import {increasing} from '@total-order/primitive';
+import {reversed} from '@total-order/reversed';
 
-> :warning: Depending on your environment, the code may require
-> `regeneratorRuntime` to be defined, for instance by importing
-> [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
+let decreasing = reversed(increasing);
+```
 
 [![License](https://img.shields.io/github/license/total-order/reversed.svg)](https://raw.githubusercontent.com/total-order/reversed/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@total-order/reversed.svg)](https://www.npmjs.org/package/@total-order/reversed)
