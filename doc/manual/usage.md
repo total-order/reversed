@@ -2,7 +2,7 @@
 
 Import the library where needed
 ```js
-const {reversed} = require( '@total-order/reversed' ) ;
+const {reversed} = await import( '@total-order/reversed' ) ;
 // or
 import {reversed} from '@total-order/reversed' ;
 ```
