@@ -14,8 +14,7 @@ let decreasing = reversed(increasing);
 [![License](https://img.shields.io/github/license/total-order/reversed.svg)](https://raw.githubusercontent.com/total-order/reversed/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@total-order/reversed.svg)](https://www.npmjs.org/package/@total-order/reversed)
 [![Tests](https://img.shields.io/github/workflow/status/total-order/reversed/ci:test?event=push&label=tests)](https://github.com/total-order/reversed/actions/workflows/ci:test.yml?query=branch:main)
-[![Dependencies](https://img.shields.io/david/total-order/reversed.svg)](https://david-dm.org/total-order/reversed)
-[![Dev dependencies](https://img.shields.io/david/dev/total-order/reversed.svg)](https://david-dm.org/total-order/reversed?type=dev)
+[![Dependencies](https://img.shields.io/librariesio/github/total-order/reversed.svg)](https://github.com/total-order/reversed/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/total-order/reversed.svg)](https://github.com/total-order/reversed/issues)
 [![Downloads](https://img.shields.io/npm/dm/@total-order/reversed.svg)](https://www.npmjs.org/package/@total-order/reversed)
 
