@@ -1,6 +1,6 @@
 import test from 'ava';
 import {increasing, decreasing} from '@total-order/primitive';
-import {reversed} from '../../src/index.js';
+import {reversed} from '#module';
 
 const increasing2 = reversed(decreasing);
 const decreasing2 = reversed(increasing);
